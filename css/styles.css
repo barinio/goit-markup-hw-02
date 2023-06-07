@@ -8,6 +8,7 @@
 }
 body {
 	font-family: Roboto, sans-serif;
+	background-color: #ffffff;
 	color: var(--dominant);
 }
 .list {
@@ -15,23 +16,26 @@ body {
 }
 
 /* header */
-.header-section a {
+.link {
 	text-decoration: none;
 }
 .logo {
 	font-family: Raleway, sans-serif;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 1.67;
+	line-height: 1.17;
 	color: var(--interactive);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
 }
 .logo-header {
-	color: var(--dominant);
+	color: var(--caption);
 }
 .list .link {
 	color: var(--caption);
 	font-weight: 500;
 	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 .contacts .link {
 	font-style: normal;
@@ -50,13 +54,18 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
+	letter-spacing: 0.02em
 }
 .list-text {
 	line-height: 1.5;
+	letter-spacing: 0.02em
 }
 .section-title {
 	color: var(--caption);
 	font-weight: 700;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
 	font-size: 36px;
 	line-height: 1.1;
 	text-align: center;
@@ -66,24 +75,27 @@ body {
 .hero {
 	background-color: var(--caption);
 }
-.hero h1 {
+.hero-title {
 	color: var(--white);
 	font-weight: 700;
 	font-size: 56px;
 	text-align: center;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
 }
 
-.hero button {
+.hero-btn {
 	font-family: Roboto, sans-serif;
 	background-color: var(--interactive);
 	color: var(--white);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
+	letter-spacing: 0.04em
 	cursor: pointer;
 }
-.hero button:hover,
-.hero button:focus {
+.hero-btn:hover,
+.hero-btn:focus {
 	background-color: var(--accent);
 }
 
@@ -109,32 +121,37 @@ body {
 	font-family: Raleway, sans-serif;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 1.67;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 	color: var(--interactive);
 	text-decoration: none;
 }
 .logo-footer {
 	color: var(--cloud);
 }
-.footer-section p {
+.text-footer {
 	color: var(--cloud);
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 /* portfolio */
 
 /* filters btns */
-.filters button {
+.filters-btn {
 	font-family: Roboto, sans-serif;
 	background-color: var(--cloud);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
+	letter-spacing: 0.04em;
 	text-align: center;
 	color: var(--interactive);
 	cursor: pointer;
 }
-.filters button:hover,
-.filters button:focus {
+.filters-btn:hover,
+.filters-btn:focus {
 	background-color: var(--accent);
 	color: var(--white);
 }
