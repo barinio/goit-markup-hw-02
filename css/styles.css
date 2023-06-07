@@ -1,0 +1,149 @@
+:root {
+	--dominant: #434455;
+	--caption: #2e2f42;
+	--white: #ffffff;
+	--interactive: #4d5ae5;
+	--cloud: #f4f4fd;
+	--accent: #404bbf;
+}
+body {
+	font-family: Roboto, sans-serif;
+	color: var(--dominant);
+}
+.list {
+	list-style: none;
+}
+
+/* header */
+.header-section a {
+	text-decoration: none;
+}
+.logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.67;
+	color: var(--interactive);
+}
+.logo-header {
+	color: var(--dominant);
+}
+.list .link {
+	color: var(--caption);
+	font-weight: 500;
+	line-height: 1.5;
+}
+.contacts .link {
+	font-style: normal;
+	font-weight: 400;
+	color: var(--dominant);
+}
+.link:hover,
+.link:focus {
+	color: var(--accent);
+}
+
+/* Main */
+
+.list-title {
+	color: var(--caption);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+}
+.list-text {
+	line-height: 1.5;
+}
+.section-title {
+	color: var(--caption);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+/* section hero */
+.hero {
+	background-color: var(--caption);
+}
+.hero h1 {
+	color: var(--white);
+	font-weight: 700;
+	font-size: 56px;
+	text-align: center;
+}
+
+.hero button {
+	font-family: Roboto, sans-serif;
+	background-color: var(--interactive);
+	color: var(--white);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	cursor: pointer;
+}
+.hero button:hover,
+.hero button:focus {
+	background-color: var(--accent);
+}
+
+/* team section */
+.team {
+	background-color: var(--cloud);
+}
+.card {
+	background-color: var(--white);
+}
+.card .list-title {
+	text-align: center;
+}
+.card .list-text {
+	text-align: center;
+}
+
+/* footer */
+.footer-section {
+	background-color: var(--caption);
+}
+.logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.67;
+	color: var(--interactive);
+	text-decoration: none;
+}
+.logo-footer {
+	color: var(--cloud);
+}
+.footer-section p {
+	color: var(--cloud);
+}
+
+/* portfolio */
+
+/* filters btns */
+.filters button {
+	font-family: Roboto, sans-serif;
+	background-color: var(--cloud);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	color: var(--interactive);
+	cursor: pointer;
+}
+.filters button:hover,
+.filters button:focus {
+	background-color: var(--accent);
+	color: var(--white);
+}
+
+/* project-cards */
+.projects-list a {
+	text-decoration: none;
+}
+.link-text {
+	font-family: Roboto, sans-serif;
+	color: var(--dominant);
+}
