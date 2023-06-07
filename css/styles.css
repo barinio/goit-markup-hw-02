@@ -159,9 +159,6 @@ body {
 }
 
 /* project-cards */
-.projects-list a {
-	text-decoration: none;
-}
 .link-text {
 	font-family: Roboto, sans-serif;
 	color: var(--dominant);
