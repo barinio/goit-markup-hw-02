@@ -18,6 +18,14 @@ body {
 /* header */
 .link {
 	text-decoration: none;
+	color: var(--caption);
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+	color: var(--accent);
 }
 .logo {
 	font-family: Raleway, sans-serif;
@@ -28,25 +36,19 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 0.03em;
 }
+.logo:hover,
+.logo:focus {
+	color: var(--interactive);
+}
 .logo-header {
 	color: var(--caption);
-}
-.list .link {
-	color: var(--caption);
-	font-weight: 500;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
 }
 .contacts {
 	font-style: normal;
 }
-.contacts .link {
+.cont-link {
 	font-weight: 400;
 	color: var(--dominant);
-}
-.link:hover,
-.link:focus {
-	color: var(--accent);
 }
 
 /* Main */
@@ -65,7 +67,6 @@ body {
 .section-title {
 	color: var(--caption);
 	font-weight: 700;
-	line-height: 1.11;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	font-size: 36px;
@@ -119,16 +120,6 @@ body {
 .footer-section {
 	background-color: var(--caption);
 }
-.logo {
-	font-family: Raleway, sans-serif;
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: var(--interactive);
-	text-decoration: none;
-}
 .logo-footer {
 	color: var(--cloud);
 }
@@ -160,6 +151,6 @@ body {
 
 /* project-cards */
 .link-text {
-	font-family: Roboto, sans-serif;
 	color: var(--dominant);
+	font-weight: 400;
 }
